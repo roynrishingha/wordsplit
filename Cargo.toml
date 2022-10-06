@@ -1,0 +1,17 @@
+[package]
+name = "wordsplit"
+version = "0.1.0"
+authors = ["Nrishinghananda Roy <royrustdev@gmail.com>"]
+edition = "2021"
+publish = false
+readme = "README.md"
+description = "An Email Newsletter created with rust axum framework"
+license = "MIT OR Apache-2.0"
+keywords = ["wordsplit", "strsplit"]
+repository = "https://github.com/royrustdev/wordsplit.git"
+
+[badges]
+maintenance = { status = "experimental" }
+
+[lib]
+path = "src/lib.rs"
